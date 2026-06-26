@@ -1,0 +1,50 @@
+============================================================
+MODEL PERFORMANCE REPORT
+============================================================
+
+Model
+
+Linear Regression
+
+Additional Models
+
+• Ridge Regression
+• Lasso Regression
+
+Performance Metrics
+
+Mean Absolute Error (MAE)
+
+Low Prediction Error
+
+Mean Squared Error (MSE)
+
+Low Error Variance
+
+Root Mean Squared Error (RMSE)
+
+Acceptable Prediction Accuracy
+
+R² Score
+
+High Model Accuracy
+
+Cross Validation
+
+Completed Successfully
+
+Feature Importance
+
+Month
+
+Customers
+
+Marketing_Spend
+
+Model Status
+
+Training Completed Successfully.
+
+Generated Model
+
+regression_model.pkl
