@@ -1,0 +1,43 @@
+============================================================
+PREDICTION REPORT
+============================================================
+
+Project
+
+Predictive Analytics Using Historical Data
+
+Prediction Summary
+
+Historical Records Processed
+
+12
+
+Prediction Generated
+
+12
+
+Forecast Generated
+
+3 Future Months
+
+Average Predicted Sales
+
+Generated Successfully
+
+Highest Predicted Sales
+
+Available
+
+Lowest Predicted Sales
+
+Available
+
+Prediction Status
+
+Completed Successfully
+
+Generated Files
+
+predicted_sales.csv
+
+future_forecast.csv
