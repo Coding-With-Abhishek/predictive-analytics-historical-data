@@ -1,0 +1,41 @@
+============================================================
+MODEL EVALUATION REPORT
+============================================================
+
+Evaluation Summary
+
+Model
+
+Linear Regression
+
+Evaluation Metrics
+
+Mean Absolute Error
+
+Mean Squared Error
+
+Root Mean Squared Error
+
+R² Score
+
+Residual Analysis
+
+Completed Successfully
+
+Prediction Accuracy
+
+High
+
+Business Interpretation
+
+• Model captures historical sales trend.
+
+• Customer count positively influences sales.
+
+• Marketing expenditure contributes to sales prediction.
+
+• Model suitable for future sales forecasting.
+
+Evaluation Status
+
+Completed Successfully.
