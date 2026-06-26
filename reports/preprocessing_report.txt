@@ -1,0 +1,35 @@
+============================================================
+PREPROCESSING REPORT
+============================================================
+
+Project:
+Predictive Analytics Using Historical Data
+
+Dataset:
+historical_data.csv
+
+Processing Summary
+
+• Dataset Loaded Successfully
+• Missing Values Checked
+• Duplicate Records Removed
+• Column Names Standardized
+• Outlier Detection Completed
+• Feature Engineering Applied
+• Feature Scaling Completed
+• Dataset Sorted
+• Processed Dataset Saved Successfully
+
+Generated Features
+
+1. Revenue_Per_Customer
+2. Profit_Margin
+3. Marketing_Efficiency
+
+Status
+
+Preprocessing Completed Successfully.
+
+Output File
+
+processed_data.csv
