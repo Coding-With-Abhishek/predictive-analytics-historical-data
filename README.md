@@ -1,170 +1,197 @@
 # Predictive Analytics Using Historical Data
 
-## Abstract
-
-Predictive Analytics Using Historical Data is a machine learning project developed using Python to forecast future trends from historical datasets. The project performs data preprocessing, feature engineering, regression model training, prediction generation, and model evaluation to support data-driven decision making.
-
----
-
-## Problem Statement
-
-Organizations collect historical data every day, but raw data alone cannot predict future outcomes. Predictive analytics enables businesses to identify future trends, estimate future values, and improve strategic planning using machine learning models.
-
----
-
-## Objectives
-
-- Clean historical datasets
-- Preprocess raw data
-- Train a predictive model
-- Forecast future values
-- Evaluate prediction accuracy
-- Generate analytical reports
-- Visualize prediction results
-
----
-
-## Technology Stack
-
-- Python
-- Pandas
-- NumPy
-- Scikit-learn
-- Matplotlib
-- Joblib
+A machine learning project that predicts future sales using historical business data. The project performs data preprocessing, feature engineering, model training, prediction, evaluation, and visualization using Python and Scikit-learn.
 
 ---
 
 ## Features
 
-### Data Preprocessing
-
-- Handle Missing Values
-- Remove Duplicate Records
-- Feature Selection
-- Data Normalization
-
-### Predictive Analytics
-
-- Historical Data Analysis
-- Linear Regression Model
-- Trend Forecasting
-- Future Prediction
-
-### Model Evaluation
-
-- Mean Absolute Error
-- Mean Squared Error
-- R² Score
-
-### Reporting
-
-- Prediction Summary
-- Performance Report
-- Forecast Analysis
+- Historical data preprocessing
+- Missing value handling
+- Duplicate removal
+- Outlier detection
+- Feature engineering
+- Feature scaling
+- Linear Regression model
+- Ridge Regression model
+- Lasso Regression model
+- Model evaluation
+- Future sales prediction
+- Performance reports
+- Data visualization
+- Modular Python architecture
 
 ---
 
-## Project Workflow
+## Technologies Used
 
-Historical Dataset
-
-↓
-
-Data Cleaning
-
-↓
-
-Feature Engineering
-
-↓
-
-Model Training
-
-↓
-
-Prediction
-
-↓
-
-Evaluation
-
-↓
-
-Visualization
-
-↓
-
-Prediction Report
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Joblib
 
 ---
 
-## Repository Structure
+## Project Structure
 
+```text
 predictive-analytics-historical-data
-
+│
 ├── data
-
-│ ├── historical_data.csv
-
-│ └── processed_data.csv
-
+│   ├── historical_data.csv
+│   └── processed_data.csv
+│
 ├── src
-
-│ ├── data_preprocessing.py
-
-│ ├── model_training.py
-
-│ ├── prediction.py
-
-│ ├── evaluation.py
-
-│ └── visualization.py
-
+│   ├── config.py
+│   ├── utils.py
+│   ├── data_preprocessing.py
+│   ├── model_training.py
+│   ├── prediction.py
+│   ├── evaluation.py
+│   └── visualization.py
+│
 ├── reports
-
-│ └── prediction_report.txt
-
+│   ├── preprocessing_report.txt
+│   ├── model_performance.txt
+│   ├── prediction_report.txt
+│   ├── evaluation_report.txt
+│   ├── predicted_sales.csv
+│   └── future_forecast.csv
+│
 ├── models
-
-│ └── regression_model.pkl
-
+│   └── README.md
+│
 ├── requirements.txt
-
 ├── README.md
-
 ├── .gitignore
-
 └── LICENSE
+```
 
 ---
 
-## Future Scope
+## Dataset
 
-- Time Series Forecasting
-- Multiple Regression Models
+The project uses a historical sales dataset containing:
+
+- Month
+- Sales
+- Customers
+- Marketing Spend
+- Profit
+
+The preprocessing pipeline generates additional features:
+
+- Revenue Per Customer
+- Profit Margin
+- Marketing Efficiency
+
+---
+
+## Machine Learning Workflow
+
+1. Load historical dataset
+2. Validate dataset
+3. Handle missing values
+4. Remove duplicate records
+5. Detect outliers
+6. Feature engineering
+7. Feature scaling
+8. Train regression model
+9. Evaluate model performance
+10. Predict future sales
+11. Generate reports
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/your-username/predictive-analytics-historical-data.git
+
+cd predictive-analytics-historical-data
+
+pip install -r requirements.txt
+```
+
+---
+
+## Run Project
+
+Preprocess data
+
+```bash
+python src/data_preprocessing.py
+```
+
+Train model
+
+```bash
+python src/model_training.py
+```
+
+Generate predictions
+
+```bash
+python src/prediction.py
+```
+
+Evaluate model
+
+```bash
+python src/evaluation.py
+```
+
+Generate visualizations
+
+```bash
+python src/visualization.py
+```
+
+---
+
+## Generated Outputs
+
+After running the project, the following files are generated automatically:
+
+### Reports
+
+- preprocessing_report.txt
+- model_performance.txt
+- prediction_report.txt
+- evaluation_report.txt
+- predicted_sales.csv
+- future_forecast.csv
+
+### Generated Files
+
+- regression_model.pkl
+- project.log
+
+> These files are generated during project execution and are not included in the repository.
+
+---
+
+## Future Improvements
+
 - Random Forest Regression
-- XGBoost Prediction
-- Deep Learning Forecasting
-- Cloud Deployment
+- XGBoost Integration
+- Hyperparameter Tuning
 - Interactive Dashboard
-
----
-
-## Learning Outcomes
-
-- Data Cleaning
-- Feature Engineering
-- Machine Learning
-- Regression Analysis
-- Predictive Modeling
-- Model Evaluation
-- Data Visualization
+- REST API Deployment
+- Streamlit Web Application
 
 ---
 
 ## Author
 
-Abhishek Kumar
+**Abhishek Kumar**
 
-B.Tech Computer Science & Engineering (Artificial Intelligence)
+B.Tech CSE (Artificial Intelligence)
+
+---
+
+## License
+
+This project is licensed under the MIT License.
